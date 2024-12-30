@@ -8,8 +8,8 @@ function App() {
     <InventoryProvider>
       <div>
         <Routes>
-          <Route path="/" element={<InventoryDashboard />} />
-          <Route path="/item/:id" element={<ItemDetails />} />
+          <Route path="/" element={<InventoryDashboard/>} />
+          <Route path="/item/:id" element={<ItemDetails/>} />
         </Routes>
       </div>
     </InventoryProvider>
